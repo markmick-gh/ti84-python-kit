@@ -1,7 +1,7 @@
 # display.py
 
 MAX_COLS = 26
-MAX_ROWS = 7
+MAX_ROWS = 7 
 
 def pause():
     input("ENTER...")
