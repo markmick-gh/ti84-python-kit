@@ -15,7 +15,7 @@
 #   display/display.py
 #
 
-from display.display import *
+from display import *
 
 
 def test_title():
