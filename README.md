@@ -21,6 +21,7 @@ TI Connect CE can send `.py` files to a TI-84 Plus CE Python calculator and conv
 You should see:
 
 • display/display.py
+
 • examples/ex01_test.py
 
 # Send the files to the calculator
