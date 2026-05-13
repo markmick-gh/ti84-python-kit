@@ -32,7 +32,7 @@ Do not send the folders themselves. Send the actual `.py` files.
 
 # Run the example on the calculator
 
-1. On the calculator, open the ••Python App••.
+1. On the calculator, open the ••Python App••. "prgm", then select "2: Python App"
 2. In the Python File Manager, select:
 • ex01_test.py
 
