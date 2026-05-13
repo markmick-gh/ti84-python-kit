@@ -1,3 +1,30 @@
-# TI-84 Example Programs
+# Example programs for the TI-84 Python Kit.
 
-This folder contains example programs demonstrating use of the display library.
+These examples demonstrate how to use the display library
+on the TI-84 Plus CE Python calculator.
+
+---
+
+## Files
+
+### ex01_test.py
+
+Basic display library demonstration.
+
+Features demonstrated:
+
+- Titles
+- Wrapped text
+- Key/value formatting
+- Tables
+- Menus
+- Paging
+
+---
+
+## Requirements
+
+The examples require:
+
+```text
+display.py
