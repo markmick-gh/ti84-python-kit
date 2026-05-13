@@ -23,7 +23,7 @@ You should see:
 
 1. Open ••TI Connect CE••.
 2. Connect the TI-84 Plus CE Python calculator by USB.
-3. Open the ••Calculator Explorer•• workspace.
+3. From the Menu, choose "Actions" -> Add Files from Computer
 4. Drag these two files into the calculator:
 • display.py
 • ex01_test.py
