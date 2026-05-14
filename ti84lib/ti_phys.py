@@ -1,4 +1,4 @@
-# phys.py
+# ti_phys.py
 # Basic physics helpers for TI-84 Python
 
 G = 9.8                 # m/s^2
