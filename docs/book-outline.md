@@ -28,9 +28,7 @@ Although TI-84 Python provides basic graphics and plotting functionality, the Mi
 
 The TI-84 Plus CE Python environment operates under significant practical constraints, including limited storage capacity, modest processing speed, small-screen formatting limitations, manual data-entry requirements, and the absence of modern desktop-style CSV or spreadsheet pipelines. These limitations are discussed openly throughout the book and are treated as important design considerations rather than defects. Real-world scientific and engineering systems frequently operate under constrained conditions involving limited memory, restricted interfaces, embedded hardware, low-power processors, or simplified user interaction models. Learning to design readable, reliable, and reusable scientific software within such constraints develops valuable problem-solving skills that extend beyond calculator programming alone.
 
-Rather than attempting to provide exhaustive implementations for every scientific topic, the book emphasizes representative applications and computational ideas that students may later expand into their own projects. Many chapters therefore include possible extensions and interdisciplinary exploration topics intended to encourage experimentation and independent scientific programming.
-
-The TI-84 Python environment is best viewed as a compact embedded scientific computing platform rather than a full desktop Python system.  Students learn:
+Rather than attempting to provide exhaustive implementations for every scientific topic, the book emphasizes representative applications and computational ideas that students may later expand into their own projects. Many chapters therefore include possible extensions and interdisciplinary exploration topics intended to encourage experimentation and independent scientific programming.  Students learn:
 - efficient formatting
 - constrained-system thinking
 - modular design
