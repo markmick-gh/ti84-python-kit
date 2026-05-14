@@ -79,27 +79,148 @@ The TI-84 platform is well suited for small computational kinetics utilities. Ex
 
 Additional examples demonstrate the use of thermodynamic tables, equilibrium calculations, Gibbs free energy estimations, heat-capacity calculations, and reusable scientific reference utilities. These applications emphasize structured program organization, reusable computation modules, and clear scientific presentation within the constraints of handheld scientific computing hardware.
 
-## Tentative Chapter List
+# Tentative Chapter List
 
-1. Introduction to TI-84 Python Scientific Programming
-2. Calculator Limitations and Design Constraints
-3. Installing and Using the Display Library
-4. Formatting Text for Small Displays
-5. Pagination and Multi-Screen Output
-6. Menus, User Input, and Program Navigation
-7. Formatting Scientific Numbers and Units
-8. Displaying Tables and Structured Data
-9. Organizing Reusable Scientific Programs
-10. Debugging and Testing on the TI-84 Platform
-11. Significant Figures and Scientific Notation Utilities
-12. Unit Conversion Applications
-13. Thermodynamics and the Properties of Gases
-14. Chemical Equilibrium and Acid-Base Systems
-15. Molecular Spectroscopy and Quantum Applications
-16. Chemical Kinetics and Molecular Motion
-17. Statistical Thermodynamics and Numerical Methods
-18. Laboratory Data Processing and Scientific Presentation
-19. Building Reusable Scientific Applications
-20. Advanced Scientific Computing Projects
-21. Future Directions in Scientific Computing
+## Part I — TI-84 Python Foundations
+
+1. Introduction to TI-84 Python Scientific Programming  
+   - Purpose and scope of the book  
+   - Scientific computing on constrained hardware  
+   - Python versus TI-Basic  
+   - Relationship to desktop scientific Python  
+
+2. Calculator Limitations and Design Constraints  
+   - Memory and storage limitations  
+   - Small-screen formatting constraints  
+   - Manual data-entry realities  
+   - Performance considerations  
+   - Constrained scientific computing concepts  
+
+3. Installing and Using the Display Library  
+   - Installing programs on the TI-84 Plus CE Python  
+   - Library organization and structure  
+   - Basic display workflows  
+   - Testing example programs  
+
+4. Formatting Text for Small Displays  
+   - Screen layout strategies  
+   - Readable scientific output  
+   - Multi-line formatting techniques  
+   - Compact information presentation  
+
+5. Pagination and Multi-Screen Output  
+   - Handling large outputs  
+   - Page navigation concepts  
+   - Structured display flow  
+   - Scientific report formatting  
+
+6. Menus, User Input, and Program Navigation  
+   - Menu-driven applications  
+   - User prompts and validation  
+   - Lightweight scientific interfaces  
+   - Program organization strategies  
+
+7. Scientific Computation Fundamentals  
+   - Scientific notation  
+   - Significant figures  
+   - Units and unit conversions  
+   - Numerical formatting  
+   - Estimation and computational reasoning  
+
+8. Displaying Tables and Structured Scientific Data  
+   - Aligned columns and tables  
+   - Experimental data presentation  
+   - Scientific summaries  
+   - Lightweight reporting utilities  
+
+9. TI-84 MicroPython Libraries and Scientific Utilities  
+   - Overview of TI-84 Python modules  
+   - Using ti_system  
+   - Using ti_draw and graphics functions  
+   - Using ti_plotlib for plotting  
+   - Working with lists and numerical data  
+   - Integrating built-in modules with display.py  
+   - Limitations compared to desktop Python  
+
+10. Organizing, Debugging, and Testing Scientific Programs  
+    - Modular scientific programs  
+    - Reusable utilities  
+    - Separating computation from presentation  
+    - Debugging techniques on constrained hardware  
+    - Testing scientific calculations  
+
+---
+
+## Part II — Scientific Computing Applications
+
+11. Physics, Chemistry, and Computational Connections  
+    - Using computation to connect scientific disciplines  
+    - Vectors and molecular dipole moments  
+    - Waves and spectroscopy  
+    - Energy and thermodynamics  
+    - Diffusion and molecular motion  
+    - Statistics and molecular behavior  
+    - Scientific modeling concepts  
+
+12. Representative Scientific Applications  
+    - Motion and energy utilities  
+    - Gas-law and thermodynamics calculations  
+    - Spectroscopy and Beer-Lambert examples  
+    - Equilibrium and acid-base calculations  
+    - Kinetics and reaction analysis  
+    - Regression and error-analysis utilities  
+
+13. Laboratory Data Processing and Scientific Presentation  
+    - Experimental data tables  
+    - Spreadsheet and LabQuest-derived datasets  
+    - Calibration curves and regression  
+    - Error analysis workflows  
+    - Structured laboratory summaries  
+    - Portable scientific computation workflows  
+
+---
+
+## Part III — Advanced Projects and Future Directions
+
+14. Building Reusable Scientific Applications  
+    - Menu-driven scientific tools  
+    - Multi-module applications  
+    - Reusable scientific architectures  
+    - Lightweight scientific software engineering  
+
+15. Advanced Scientific Computing Projects  
+    - Integrated chemistry and physics utilities  
+    - Thermodynamics applications  
+    - Spectroscopy tools  
+    - Data-analysis utilities  
+    - Student-designed scientific applications  
+
+16. Future Directions in Scientific Computing  
+    - Transitioning to desktop Python  
+    - NumPy and Jupyter concepts  
+    - Raspberry Pi and MicroPython systems  
+    - Embedded scientific instrumentation  
+    - Physical chemistry and computational science pathways  
+    - Constrained scientific computing systems  
+
+---
+
+# Possible Scientific Exploration Topics
+
+The following topics are suggested throughout the book as possible extensions and student-designed scientific applications:
+
+- Vector analysis and molecular dipole moments  
+- Gravity, sedimentation, and centrifugation  
+- Gas pressure and atmospheric modeling  
+- Waves, optics, and spectroscopy  
+- Diffusion and molecular motion  
+- Chemical kinetics and exponential decay  
+- Thermodynamics and energy transfer  
+- Statistical methods and molecular behavior  
+- Error analysis and experimental uncertainty  
+- Calibration curves and regression analysis  
+- Spectroscopy and analytical chemistry utilities  
+- Laboratory data reduction and presentation  
+- Electrostatics and intermolecular interactions  
+- Numerical approximation and lightweight simulation methods  
 
