@@ -32,6 +32,34 @@ The TI-84 Python platform should not be viewed as a replacement for desktop scie
 
 Several chapters demonstrate how experimental data originating from spreadsheets or laboratory acquisition systems may be adapted into TI-84 Python programs using lists, compact tables, formatted numerical displays, and reusable analysis functions. Topics include significant figures, error analysis, regression utilities, spectroscopy calculations, kinetics data reduction, thermodynamic computations, and scientific table formatting. The overall goal is to help students and instructors build practical scientific tools that complement — rather than replace — larger desktop scientific computing systems.
 
+## Example Scientific Applications
+
+The examples and projects developed throughout this book emphasize practical scientific computing tasks commonly encountered in chemistry, physics, engineering, and laboratory courses. Rather than focusing exclusively on isolated mathematical exercises, the programs are designed to support realistic scientific workflows involving data analysis, numerical calculations, formatted output, and reusable computational utilities.
+
+### Linear Regression and Calibration Utilities
+
+Several applications demonstrate the use of linear regression techniques for scientific calibration and data analysis. Example projects include Beer-Lambert calibration curves, kinetics trend analysis, gas-law relationships, and experimental curve fitting. The TI-84 calculator already provides built-in statistical tools, but Python programs can automate repetitive workflows, improve formatting, and organize scientific output more effectively.
+
+### Error Analysis and Experimental Uncertainty
+
+The book includes utilities for handling common forms of experimental uncertainty and data analysis. Applications include average and standard deviation calculations, percent error and percent difference analysis, confidence intervals, significant-figure handling, and basic uncertainty propagation methods frequently encountered in laboratory courses.
+
+### Scientific Table Formatting and Data Presentation
+
+A major emphasis of the display library is the clear presentation of scientific information on small displays. Example utilities demonstrate aligned columns, formatted numerical output, scientific notation handling, unit labeling, paginated tables, and structured experimental summaries suitable for laboratory and educational use.
+
+### Spectroscopy and Analytical Chemistry Utilities
+
+Several examples focus on compact spectroscopy and analytical chemistry applications appropriate for the TI-84 Python environment. Projects include absorbance calculations, concentration determination, calibration interpolation, repeated-measurement averaging, and lightweight spectroscopy data analysis utilities.
+
+### Chemical Kinetics and Reaction Analysis
+
+The TI-84 platform is well suited for small computational kinetics utilities. Example projects include rate-law calculators, Arrhenius equation applications, half-life calculations, integrated rate-law analysis, slope estimation, and compact reaction-analysis tools commonly encountered in introductory physical chemistry and laboratory settings.
+
+### Thermodynamics and Scientific Reference Utilities
+
+Additional examples demonstrate the use of thermodynamic tables, equilibrium calculations, Gibbs free energy estimations, heat-capacity calculations, and reusable scientific reference utilities. These applications emphasize structured program organization, reusable computation modules, and clear scientific presentation within the constraints of handheld scientific computing hardware.
+
 ## Tentative Chapter List
 
 1. Introduction to TI-84 Python Scientific Programming
