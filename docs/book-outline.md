@@ -36,13 +36,13 @@ Although TI-84 Python provides basic graphics and drawing functionality, the Mic
 10. Debugging and Testing on the TI-84 Platform
 11. Significant Figures and Scientific Notation Utilities
 12. Unit Conversion Applications
-13. Ideal Gas Law Programs
-14. pH and Acid-Base Calculators
-15. Beer-Lambert Law and Spectroscopy Utilities
-16. Chemical Kinetics Applications
-17. Thermodynamics and Energy Calculations
-18. Numerical Approximation Techniques
-19. Data Collection and Laboratory Utilities
-20. Building Complete Scientific Applications
-21. Future Directions for TI-84 Scientific Computing
+13. Thermodynamics and the Properties of Gases
+14. Chemical Equilibrium and Acid-Base Systems
+15. Molecular Spectroscopy and Quantum Applications
+16. Chemical Kinetics and Molecular Motion
+17. Statistical Thermodynamics and Numerical Methods
+18. Scientific Data Presentation and Laboratory Utilities
+19. Building Reusable Scientific Applications
+20. Advanced Scientific Computing Projects
+21. Future Directions in Scientific Computing
 
