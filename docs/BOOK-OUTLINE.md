@@ -178,7 +178,8 @@ Several chapters demonstrate how experimental data originating from spreadsheets
     - Thermodynamics applications  
     - Spectroscopy tools  
     - Data-analysis utilities  
-    - Student-designed scientific applications  
+    - Student-designed scientific applications
+    - Analyzing Imported Laboratory Data
 
 16. Future Directions in Scientific Computing  
     - Transitioning to desktop Python  
