@@ -1,26 +1,17 @@
 # ti_phys Physics Examples
 
-## speed()
+## acceleration()
 
 ```python
 import ti_phys
 import ti_display
 
-v = ti_phys.speed(100, 9.58)
-
-ti_display.show_kv("Speed", v)
-```
-
----
-
-## acceleration()
-
-```python
-import ti_phys
-
 a = ti_phys.acceleration(20, 4)
 
-print(a)
+ti_display.show_kv(
+    "Acceleration (m/s^2)",
+    a
+)
 ```
 
 ---
@@ -29,10 +20,14 @@ print(a)
 
 ```python
 import ti_phys
+import ti_display
 
 f = ti_phys.force(10, 9.8)
 
-print(f)
+ti_display.show_kv(
+    "Force (N)",
+    f
+)
 ```
 
 ---
@@ -41,10 +36,14 @@ print(f)
 
 ```python
 import ti_phys
+import ti_display
 
 w = ti_phys.weight(70)
 
-print(w)
+ti_display.show_kv(
+    "Weight (N)",
+    w
+)
 ```
 
 ---
@@ -53,10 +52,14 @@ print(w)
 
 ```python
 import ti_phys
+import ti_display
 
 w = ti_phys.work(50, 10)
 
-print(w)
+ti_display.show_kv(
+    "Work (J)",
+    w
+)
 ```
 
 ---
@@ -65,10 +68,14 @@ print(w)
 
 ```python
 import ti_phys
+import ti_display
 
 p = ti_phys.power(500, 20)
 
-print(p)
+ti_display.show_kv(
+    "Power (W)",
+    p
+)
 ```
 
 ---
@@ -77,10 +84,14 @@ print(p)
 
 ```python
 import ti_phys
+import ti_display
 
 ke = ti_phys.kinetic_energy(2, 5)
 
-print(ke)
+ti_display.show_kv(
+    "Kinetic Energy (J)",
+    ke
+)
 ```
 
 ---
@@ -89,10 +100,14 @@ print(ke)
 
 ```python
 import ti_phys
+import ti_display
 
 pe = ti_phys.potential_energy(3, 10)
 
-print(pe)
+ti_display.show_kv(
+    "Potential Energy (J)",
+    pe
+)
 ```
 
 ---
@@ -101,10 +116,14 @@ print(pe)
 
 ```python
 import ti_phys
+import ti_display
 
 d = ti_phys.density(25, 5)
 
-print(d)
+ti_display.show_kv(
+    "Density",
+    d
+)
 ```
 
 ---
@@ -113,10 +132,14 @@ print(d)
 
 ```python
 import ti_phys
+import ti_display
 
 p = ti_phys.pressure(100, 2)
 
-print(p)
+ti_display.show_kv(
+    "Pressure (Pa)",
+    p
+)
 ```
 
 ---
@@ -125,12 +148,17 @@ print(p)
 
 ```python
 import ti_phys
+import ti_display
 
 v = ti_phys.wave_speed(440, 0.78)
 
-print(v)
+ti_display.show_kv(
+    "Wave Speed (m/s)",
+    v
+)
 ```
 
+---
 
 # ti_chem Chemistry Examples
 
@@ -138,10 +166,17 @@ print(v)
 
 ```python
 import ti_chem
+import ti_display
 
-moles = ti_chem.moles_from_mass(18, 18.015)
+moles = ti_chem.moles_from_mass(
+    18,
+    18.015
+)
 
-print(moles)
+ti_display.show_kv(
+    "Moles",
+    moles
+)
 ```
 
 ---
@@ -150,10 +185,17 @@ print(moles)
 
 ```python
 import ti_chem
+import ti_display
 
-mass = ti_chem.mass_from_moles(2, 58.44)
+mass = ti_chem.mass_from_moles(
+    2,
+    58.44
+)
 
-print(mass)
+ti_display.show_kv(
+    "Mass (g)",
+    mass
+)
 ```
 
 ---
@@ -162,10 +204,14 @@ print(mass)
 
 ```python
 import ti_chem
+import ti_display
 
 m = ti_chem.molarity(0.5, 1.0)
 
-print(m)
+ti_display.show_kv(
+    "Molarity (M)",
+    m
+)
 ```
 
 ---
@@ -174,10 +220,17 @@ print(m)
 
 ```python
 import ti_chem
+import ti_display
 
-moles = ti_chem.moles_from_molarity(2.0, 0.25)
+moles = ti_chem.moles_from_molarity(
+    2.0,
+    0.25
+)
 
-print(moles)
+ti_display.show_kv(
+    "Moles",
+    moles
+)
 ```
 
 ---
@@ -186,6 +239,7 @@ print(moles)
 
 ```python
 import ti_chem
+import ti_display
 
 m2 = ti_chem.dilution_m1v1(
     6.0,
@@ -193,7 +247,10 @@ m2 = ti_chem.dilution_m1v1(
     100.0
 )
 
-print(m2)
+ti_display.show_kv(
+    "Diluted Molarity",
+    m2
+)
 ```
 
 ---
@@ -202,10 +259,14 @@ print(m2)
 
 ```python
 import ti_chem
+import ti_display
 
 pct = ti_chem.percent_mass(5, 100)
 
-print(pct)
+ti_display.show_kv(
+    "Mass Percent (%)",
+    pct
+)
 ```
 
 ---
@@ -214,10 +275,14 @@ print(pct)
 
 ```python
 import ti_chem
+import ti_display
 
 ph = ti_chem.ph_from_h3o(1e-3)
 
-print(ph)
+ti_display.show_kv(
+    "pH",
+    ph
+)
 ```
 
 ---
@@ -226,10 +291,14 @@ print(ph)
 
 ```python
 import ti_chem
+import ti_display
 
 h3o = ti_chem.h3o_from_ph(3)
 
-print(h3o)
+ti_display.show_kv(
+    "[H3O+]",
+    h3o
+)
 ```
 
 ---
@@ -238,6 +307,7 @@ print(h3o)
 
 ```python
 import ti_chem
+import ti_display
 
 p = ti_chem.ideal_gas_pressure(
     1.0,
@@ -245,7 +315,10 @@ p = ti_chem.ideal_gas_pressure(
     273
 )
 
-print(p)
+ti_display.show_kv(
+    "Pressure (atm)",
+    p
+)
 ```
 
 ---
@@ -254,6 +327,7 @@ print(p)
 
 ```python
 import ti_chem
+import ti_display
 
 v = ti_chem.ideal_gas_volume(
     1.0,
@@ -261,9 +335,13 @@ v = ti_chem.ideal_gas_volume(
     273
 )
 
-print(v)
+ti_display.show_kv(
+    "Volume (L)",
+    v
+)
 ```
 
+---
 
 # ti_units Units Examples
 
@@ -271,10 +349,14 @@ print(v)
 
 ```python
 import ti_units
+import ti_display
 
 f = ti_units.c_to_f(25)
 
-print(f)
+ti_display.show_kv(
+    "Temperature (F)",
+    f
+)
 ```
 
 ---
@@ -283,10 +365,14 @@ print(f)
 
 ```python
 import ti_units
+import ti_display
 
 c = ti_units.f_to_c(98.6)
 
-print(c)
+ti_display.show_kv(
+    "Temperature (C)",
+    c
+)
 ```
 
 ---
@@ -295,10 +381,14 @@ print(c)
 
 ```python
 import ti_units
+import ti_display
 
 k = ti_units.c_to_k(25)
 
-print(k)
+ti_display.show_kv(
+    "Temperature (K)",
+    k
+)
 ```
 
 ---
@@ -307,10 +397,14 @@ print(k)
 
 ```python
 import ti_units
+import ti_display
 
 c = ti_units.k_to_c(300)
 
-print(c)
+ti_display.show_kv(
+    "Temperature (C)",
+    c
+)
 ```
 
 ---
@@ -319,10 +413,14 @@ print(c)
 
 ```python
 import ti_units
+import ti_display
 
 cm = ti_units.in_to_cm(10)
 
-print(cm)
+ti_display.show_kv(
+    "Length (cm)",
+    cm
+)
 ```
 
 ---
@@ -331,10 +429,14 @@ print(cm)
 
 ```python
 import ti_units
+import ti_display
 
 inch = ti_units.cm_to_in(25.4)
 
-print(inch)
+ti_display.show_kv(
+    "Length (in)",
+    inch
+)
 ```
 
 ---
@@ -343,10 +445,14 @@ print(inch)
 
 ```python
 import ti_units
+import ti_display
 
 m = ti_units.ft_to_m(6)
 
-print(m)
+ti_display.show_kv(
+    "Length (m)",
+    m
+)
 ```
 
 ---
@@ -355,10 +461,14 @@ print(m)
 
 ```python
 import ti_units
+import ti_display
 
 ft = ti_units.m_to_ft(3)
 
-print(ft)
+ti_display.show_kv(
+    "Length (ft)",
+    ft
+)
 ```
 
 ---
@@ -367,10 +477,14 @@ print(ft)
 
 ```python
 import ti_units
+import ti_display
 
 km = ti_units.mi_to_km(10)
 
-print(km)
+ti_display.show_kv(
+    "Distance (km)",
+    km
+)
 ```
 
 ---
@@ -379,10 +493,14 @@ print(km)
 
 ```python
 import ti_units
+import ti_display
 
 mi = ti_units.km_to_mi(16)
 
-print(mi)
+ti_display.show_kv(
+    "Distance (mi)",
+    mi
+)
 ```
 
 ---
@@ -391,10 +509,14 @@ print(mi)
 
 ```python
 import ti_units
+import ti_display
 
 kg = ti_units.lb_to_kg(150)
 
-print(kg)
+ti_display.show_kv(
+    "Mass (kg)",
+    kg
+)
 ```
 
 ---
@@ -403,10 +525,14 @@ print(kg)
 
 ```python
 import ti_units
+import ti_display
 
 lb = ti_units.kg_to_lb(68)
 
-print(lb)
+ti_display.show_kv(
+    "Mass (lb)",
+    lb
+)
 ```
 
 ---
@@ -415,10 +541,14 @@ print(lb)
 
 ```python
 import ti_units
+import ti_display
 
 g = ti_units.oz_to_g(12)
 
-print(g)
+ti_display.show_kv(
+    "Mass (g)",
+    g
+)
 ```
 
 ---
@@ -427,10 +557,14 @@ print(g)
 
 ```python
 import ti_units
+import ti_display
 
 oz = ti_units.g_to_oz(100)
 
-print(oz)
+ti_display.show_kv(
+    "Mass (oz)",
+    oz
+)
 ```
 
 ---
@@ -439,10 +573,14 @@ print(oz)
 
 ```python
 import ti_units
+import ti_display
 
 liters = ti_units.gal_to_l(2)
 
-print(liters)
+ti_display.show_kv(
+    "Volume (L)",
+    liters
+)
 ```
 
 ---
@@ -451,207 +589,12 @@ print(liters)
 
 ```python
 import ti_units
+import ti_display
 
 gal = ti_units.l_to_gal(5)
 
-print(gal)
-```
-
-
-# ti_display Display Examples
-
-## pause()
-
-```python
-import ti_display
-
-print("Program complete.")
-ti_display.pause()
-```
-
----
-
-## hr()
-
-```python
-import ti_display
-
-ti_display.hr()
-print("Section 1")
-ti_display.hr("=")
-```
-
----
-
-## clear_lines()
-
-```python
-import ti_display
-
-print("Before clear")
-ti_display.clear_lines()
-print("After clear")
-```
-
----
-
-## fit_line()
-
-```python
-import ti_display
-
-s = ti_display.fit_line(
-    "This line is too long for the TI-84 screen."
-)
-
-print(s)
-```
-
----
-
-## wrap_text()
-
-```python
-import ti_display
-
-lines = ti_display.wrap_text(
-    "The TI-84 screen has limited width."
-)
-
-print(lines)
-```
-
----
-
-## page_lines()
-
-```python
-import ti_display
-
-lines = [
-    "Line 1",
-    "Line 2",
-    "Line 3",
-    "Line 4",
-    "Line 5",
-    "Line 6",
-    "Line 7",
-    "Line 8"
-]
-
-ti_display.page_lines(lines)
-```
-
----
-
-## show_lines()
-
-```python
-import ti_display
-
-lines = [
-    "Hydrogen",
-    "Helium",
-    "Lithium"
-]
-
-ti_display.show_lines(lines)
-```
-
----
-
-## show_text()
-
-```python
-import ti_display
-
-ti_display.show_text(
-    "Physics and chemistry calculations can "
-    "be displayed cleanly on the TI-84."
+ti_display.show_kv(
+    "Volume (gal)",
+    gal
 )
 ```
-
----
-
-## show_title()
-
-```python
-import ti_display
-
-ti_display.show_title("Gas Law Results")
-```
-
----
-
-## fmt_num()
-
-```python
-import ti_display
-
-s = ti_display.fmt_num(3.14159265)
-
-print(s)
-```
-
----
-
-## show_kv()
-
-```python
-import ti_display
-
-ti_display.show_kv("Speed", 10.44)
-```
-
----
-
-## show_record()
-
-```python
-import ti_display
-
-pairs = [
-    ("Mass", "12.5 g"),
-    ("Volume", "5.2 mL"),
-    ("Density", "2.40 g/mL")
-]
-
-ti_display.show_record("Sample Data", pairs)
-```
-
----
-
-## menu_choice()
-
-```python
-import ti_display
-
-options = [
-    "Physics",
-    "Chemistry",
-    "Quit"
-]
-
-choice = ti_display.menu_choice(options)
-
-print(choice)
-```
-
----
-
-## show_table()
-
-```python
-import ti_display
-
-headers = ["Time", "Dist"]
-
-rows = [
-    ["1", "5"],
-    ["2", "10"],
-    ["3", "15"]
-]
-
-ti_display.show_table(headers, rows)
-```
-
