@@ -41,7 +41,7 @@ Although TI-84 Python provides basic graphics and drawing functionality, the Mic
 15. Molecular Spectroscopy and Quantum Applications
 16. Chemical Kinetics and Molecular Motion
 17. Statistical Thermodynamics and Numerical Methods
-18. Scientific Data Presentation and Laboratory Utilities
+18. Laboratory Data Processing and Scientific Presentation
 19. Building Reusable Scientific Applications
 20. Advanced Scientific Computing Projects
 21. Future Directions in Scientific Computing
