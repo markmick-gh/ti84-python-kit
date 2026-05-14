@@ -30,6 +30,24 @@ The TI-84 Plus CE Python environment operates under significant practical constr
 
 Rather than attempting to provide exhaustive implementations for every scientific topic, the book emphasizes representative applications and computational ideas that students may later expand into their own projects. Many chapters therefore include possible extensions and interdisciplinary exploration topics intended to encourage experimentation and independent scientific programming.  Students therefore learn efficient formatting techniques, constrained-system thinking, modular design practices, compact scientific workflows, and algorithmic clarity rather than immediately depending on massive libraries, large datasets, or heavy abstraction layers commonly found in desktop scientific computing environments.
 
+## TI-84 Python Documentation Resources
+
+Texas Instruments provides official guidebooks and programming references for the TI-84 Plus CE Python environment, including documentation for built-in modules such as `math`, `ti_system`, `ti_draw`, `ti_plotlib`, and related add-on modules. Readers are encouraged to consult the official TI documentation for complete syntax references and module details.
+
+Official TI-84 Python resources:
+
+- TI Python Programming Guide  
+  https://education.ti.com/guidebook/details/en/1424CF4F539A4DBB9145E2AA89F0FF54/ti-84-plus-ce-python
+
+- TI Python Modules Overview  
+  https://education.ti.com/en/activities/ti-codes/python/ti-84p-ce-python/python-modules
+
+- TI Add-On Modules Documentation  
+  https://education.ti.com/html/eguides/graphing/84PlusCEPy/EN/content/eg_pythonappprog/m_pyentry/m_addon.HTML
+
+This book does not attempt to reproduce complete API documentation. Instead, it focuses on practical scientific-computing workflows and representative examples using the TI-84 Python environment.
+
+
 ## Integrated Physics and Chemistry Perspective
 
 Many scientific applications in this book intentionally combine concepts from introductory physics and chemistry in order to demonstrate how computational scientific ideas connect across disciplines. Rather than treating physics and chemistry as isolated subjects, the examples show how foundational physical principles often provide insight into chemical systems and laboratory behavior.
