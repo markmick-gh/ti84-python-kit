@@ -16,6 +16,12 @@ Using this display library as a foundation, the book develops a collection of pr
 
 ---
 
+## Scope and Expectations
+
+This book focuses on practical scientific programming using the TI-84 Plus CE Python environment. The emphasis is on building reusable scientific utilities, formatted displays, menu-driven applications, and computational tools for chemistry, physics, and engineering applications. While the TI-84 calculator already contains a powerful built-in graphing system, this book does not attempt to replace or duplicate the calculator’s native graphing capabilities through Python.
+
+Although TI-84 Python provides basic graphics and drawing functionality, the MicroPython environment is intentionally limited compared to desktop scientific Python environments such as NumPy, Matplotlib, or Jupyter notebooks. Readers should view the TI-84 Python platform as a compact embedded scientific computing environment rather than a full-featured desktop programming system. The goal of this book is to teach structured scientific programming, reusable software design, and practical problem-solving techniques within the constraints of handheld calculator hardware.
+
 ## Tentative Chapter List
 
 1. Introduction to TI-84 Python Scientific Programming
