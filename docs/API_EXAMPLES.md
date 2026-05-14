@@ -1,4 +1,4 @@
-# Physics Example
+# Physics Examples
 
 ```python
 import ti_phys
@@ -14,3 +14,15 @@ Output:
 ```text
 Speed: 10.44
 ```
+
+# Chemistry Examples
+
+TBD
+
+# Units Examples
+
+TBD
+
+# Display Examples
+
+TBD
