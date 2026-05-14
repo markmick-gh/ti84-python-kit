@@ -14,6 +14,8 @@ Most TI-84 Python books concentrate on introductory programming exercises, graph
 
 Using this display library as a foundation, the book develops a collection of practical scientific applications drawn from chemistry, physics, and engineering problem solving. Topics include unit conversions, significant figures, ideal gas calculations, spectroscopy utilities, kinetics calculations, and formatted scientific data presentation. The emphasis throughout is on writing readable, maintainable, and scientifically useful programs that extend the calculator beyond its built-in capabilities.
 
+The TI-84 Python environment is best viewed as a compact embedded scientific computing platform rather than a full desktop Python system.
+
 ---
 
 ## Scope and Expectations
