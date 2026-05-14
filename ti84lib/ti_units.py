@@ -1,4 +1,4 @@
-# units.py
+# ti_units.py
 # Simple unit conversions for TI-84 Python
 
 IN_TO_CM = 2.54
