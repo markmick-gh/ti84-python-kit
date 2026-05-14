@@ -1,23 +1,4 @@
-# Physics Examples
-
-```python
-import ti_phys
-import ti_display
-
-v = ti_phys.speed(100, 9.58)
-
-ti_display.show_kv("Speed", v)
-```
-
-Output:
-
-```text
-Speed: 10.44
-```
-
----
-
-# ti_phys Examples
+# ti_phys Physics Examples
 
 ## speed()
 
@@ -151,11 +132,7 @@ print(v)
 ```
 
 
-# Chemistry Examples
-
----
-
-# ti_chem Examples
+# ti_chem Chemistry Examples
 
 ## moles_from_mass()
 
@@ -288,9 +265,7 @@ print(v)
 ```
 
 
-# Units Examples
-
-# ti_units Examples
+# ti_units Units Examples
 
 ## c_to_f()
 
@@ -483,11 +458,7 @@ print(gal)
 ```
 
 
-# Display Examples
-
----
-
-# ti_display Examples
+# ti_display Display Examples
 
 ## pause()
 
