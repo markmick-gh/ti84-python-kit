@@ -22,6 +22,14 @@ This book focuses on practical scientific programming using the TI-84 Plus CE Py
 
 Although TI-84 Python provides basic graphics and drawing functionality, the MicroPython environment is intentionally limited compared to desktop scientific Python environments such as NumPy, Matplotlib, or Jupyter notebooks. Readers should view the TI-84 Python platform as a compact embedded scientific computing environment rather than a full-featured desktop programming system. The goal of this book is to teach structured scientific programming, reusable software design, and practical problem-solving techniques within the constraints of handheld calculator hardware.
 
+## Laboratory Data and Scientific Workflows
+
+A major emphasis of this book is the processing and presentation of experimental scientific data. Many examples are designed around realistic laboratory workflows commonly encountered in chemistry and physics courses, including data collected from LabQuest systems, spreadsheets, spectroscopy experiments, gas-law measurements, kinetics studies, and other laboratory activities. Rather than focusing exclusively on isolated formula calculations, the book demonstrates how the TI-84 Plus CE Python environment can be used to organize, format, analyze, and summarize experimental results in a structured and reusable manner.
+
+The TI-84 Python platform should not be viewed as a replacement for desktop scientific environments such as Excel, MATLAB, NumPy, or Jupyter notebooks. Instead, the calculator is treated as a compact embedded scientific computing platform suitable for small datasets, portable calculations, laboratory checks, educational demonstrations, and lightweight scientific utilities. The examples in this book emphasize practical scientific problem solving within the memory, display, and input limitations of handheld calculator hardware.
+
+Several chapters demonstrate how experimental data originating from spreadsheets or laboratory acquisition systems may be adapted into TI-84 Python programs using lists, compact tables, formatted numerical displays, and reusable analysis functions. Topics include significant figures, error analysis, regression utilities, spectroscopy calculations, kinetics data reduction, thermodynamic computations, and scientific table formatting. The overall goal is to help students and instructors build practical scientific tools that complement — rather than replace — larger desktop scientific computing systems.
+
 ## Tentative Chapter List
 
 1. Introduction to TI-84 Python Scientific Programming
