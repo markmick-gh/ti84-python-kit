@@ -4,7 +4,7 @@
 
 This book is intended for science and engineering students, STEM instructors, and hobbyists interested in practical scientific programming on the TI-84 Plus CE Python calculator. It is designed for readers who already possess basic algebra skills and a willingness to experiment with Python programming, but who may not have prior software development experience.
 
-The material is especially appropriate for chemistry, physics, and engineering applications where small scientific utilities, formatted data displays, and menu-driven programs can enhance problem solving and laboratory work. The focus is not on teaching Python syntax alone, but on building usable scientific applications within the limitations of the TI-84 Python environment.
+The material is especially appropriate for chemistry, physics, and engineering applications where small scientific utilities, formatted data displays, and menu-driven programs can enhance problem solving and laboratory work. The focus is not on teaching Python syntax alone, but on building usable scientific applications within the limitations of the TI-84 Python environment. Readers are expected to learn basic Python syntax from external introductory resources as needed; the emphasis of this book is on scientific application design and constrained scientific computing rather than general-purpose Python instruction.
 
 ---
 
@@ -28,17 +28,7 @@ Although TI-84 Python provides basic graphics and plotting functionality, the Mi
 
 The TI-84 Plus CE Python environment operates under significant practical constraints, including limited storage capacity, modest processing speed, small-screen formatting limitations, manual data-entry requirements, and the absence of modern desktop-style CSV or spreadsheet pipelines. These limitations are discussed openly throughout the book and are treated as important design considerations rather than defects. Real-world scientific and engineering systems frequently operate under constrained conditions involving limited memory, restricted interfaces, embedded hardware, low-power processors, or simplified user interaction models. Learning to design readable, reliable, and reusable scientific software within such constraints develops valuable problem-solving skills that extend beyond calculator programming alone.
 
-Rather than attempting to provide exhaustive implementations for every scientific topic, the book emphasizes representative applications and computational ideas that students may later expand into their own projects. Many chapters therefore include possible extensions and interdisciplinary exploration topics intended to encourage experimentation and independent scientific programming.  Students learn:
-- efficient formatting
-- constrained-system thinking
-- modular design
-- compact scientific workflows
-- algorithmic clarity
-
-instead of immediately depending on:
-- massive libraries
-- large datasets
-- heavy abstraction layers
+Rather than attempting to provide exhaustive implementations for every scientific topic, the book emphasizes representative applications and computational ideas that students may later expand into their own projects. Many chapters therefore include possible extensions and interdisciplinary exploration topics intended to encourage experimentation and independent scientific programming.  Students therefore learn efficient formatting techniques, constrained-system thinking, modular design practices, compact scientific workflows, and algorithmic clarity rather than immediately depending on massive libraries, large datasets, or heavy abstraction layers commonly found in desktop scientific computing environments.
 
 ## Integrated Physics and Chemistry Perspective
 
@@ -130,7 +120,7 @@ Several chapters demonstrate how experimental data originating from spreadsheets
 
 ## Part II — Scientific Computing Applications
 
-11. Physics, Chemistry, and Computational Connections  
+11. Connecting Physics, Chemistry, and Scientific Computing  
     - Using computation to connect scientific disciplines  
     - Vectors and molecular dipole moments  
     - Waves and spectroscopy  
@@ -177,7 +167,7 @@ Several chapters demonstrate how experimental data originating from spreadsheets
     - NumPy and Jupyter concepts  
     - Raspberry Pi and MicroPython systems  
     - Embedded scientific instrumentation  
-    - Physical chemistry and computational science pathways  
+    - Advanced chemistry, physics, and computational science pathways  
     - Constrained scientific computing systems  
 
 ---
