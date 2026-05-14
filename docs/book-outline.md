@@ -14,7 +14,6 @@ Most TI-84 Python books concentrate on introductory programming exercises, graph
 
 Using this display library as a foundation, the book develops a collection of practical scientific applications drawn from chemistry, physics, and engineering problem solving. Topics include unit conversions, significant figures, ideal gas calculations, spectroscopy utilities, kinetics calculations, and formatted scientific data presentation. The emphasis throughout is on writing readable, maintainable, and scientifically useful programs that extend the calculator beyond its built-in capabilities.
 
-The TI-84 Python environment is best viewed as a compact embedded scientific computing platform rather than a full desktop Python system.
 
 ---
 
@@ -25,6 +24,18 @@ This book focuses on practical scientific programming using the TI-84 Plus CE Py
 Although TI-84 Python provides basic graphics and drawing functionality, the MicroPython environment is intentionally limited compared to desktop scientific Python environments such as NumPy, Matplotlib, or Jupyter notebooks. Readers should view the TI-84 Python platform as a compact embedded scientific computing environment rather than a full-featured desktop programming system. The goal of this book is to teach structured scientific programming, reusable software design, and practical problem-solving techniques within the constraints of handheld calculator hardware.
 
 The TI-84 Plus CE Python environment operates under significant practical constraints, including limited storage capacity, modest processing speed, small-screen formatting limitations, manual data-entry requirements, and the absence of modern desktop-style CSV or spreadsheet pipelines. These limitations are discussed openly throughout the book and are treated as important design considerations rather than defects. Real-world scientific and engineering systems frequently operate under constrained conditions involving limited memory, restricted interfaces, embedded hardware, low-power processors, or simplified user interaction models. Learning to design readable, reliable, and reusable scientific software within such constraints develops valuable problem-solving skills that extend beyond calculator programming alone. The TI-84 platform therefore serves not only as an educational calculator, but also as an accessible introduction to constrained scientific computing and practical software engineering tradeoffs.
+
+The TI-84 Python environment is best viewed as a compact embedded scientific computing platform rather than a full desktop Python system.  Students learn:
+- efficient formatting
+- constrained-system thinking
+- modular design
+- compact scientific workflows
+- algorithmic clarity
+
+instead of immediately depending on:
+- massive libraries
+- large datasets
+- heavy abstraction layers
 
 ## Physical Chemistry Perspective
 
