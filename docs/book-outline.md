@@ -12,18 +12,23 @@ The material is especially appropriate for chemistry, physics, and engineering a
 
 Most TI-84 Python books concentrate on introductory programming exercises, graphing demonstrations, or calculator automation techniques. While useful, these approaches often overlook an important challenge of handheld scientific computing: presenting information clearly on a highly constrained display. This book introduces a lightweight display framework that simplifies pagination, menus, tables, formatted numerical output, and reusable user-interface patterns for the TI-84 Plus CE Python platform.
 
-Using this display library as a foundation, the book develops a collection of practical scientific applications drawn from chemistry, physics, and engineering problem solving. Topics include unit conversions, significant figures, ideal gas calculations, spectroscopy utilities, kinetics calculations, and formatted scientific data presentation. The emphasis throughout is on writing readable, maintainable, and scientifically useful programs that extend the calculator beyond its built-in capabilities.
+Using this display library as a foundation, the book develops a collection of practical scientific applications drawn from introductory physics, chemistry, engineering, and laboratory problem solving. Topics include vectors, forces, energy relationships, spectroscopy utilities, kinetics calculations, regression analysis, laboratory data formatting, and structured scientific presentation. The emphasis throughout is not on teaching Python syntax itself, but rather on teaching how to effectively use MicroPython within a constrained scientific computing environment.
+
+The TI-84 Python environment is best viewed as a compact embedded scientific computing platform rather than a full desktop Python system. Throughout the book, physics and chemistry concepts are intentionally connected in order to demonstrate how scientific ideas interact across disciplines. For example, vector calculations introduced in a physics context may later be applied to molecular dipole moments in chemistry, while wave behavior may later connect to spectroscopy and light-matter interactions.
+
 
 
 ---
 
 ## Scope and Expectations
 
-This book focuses on practical scientific programming using the TI-84 Plus CE Python environment. The emphasis is on building reusable scientific utilities, formatted displays, menu-driven applications, and computational tools for chemistry, physics, and engineering applications. While the TI-84 calculator already contains a powerful built-in graphing system, this book does not attempt to replace or duplicate the calculator’s native graphing capabilities through Python.
+This book focuses on practical scientific programming using the TI-84 Plus CE Python environment. The emphasis is on building reusable scientific utilities, formatted displays, menu-driven applications, and lightweight computational tools appropriate for introductory physics, chemistry, engineering, and laboratory coursework. While the TI-84 calculator already contains a powerful built-in graphing system, this book does not attempt to replace or duplicate the calculator’s native graphing capabilities through Python.
 
-Although TI-84 Python provides basic graphics and drawing functionality, the MicroPython environment is intentionally limited compared to desktop scientific Python environments such as NumPy, Matplotlib, or Jupyter notebooks. Readers should view the TI-84 Python platform as a compact embedded scientific computing environment rather than a full-featured desktop programming system. The goal of this book is to teach structured scientific programming, reusable software design, and practical problem-solving techniques within the constraints of handheld calculator hardware.
+Although TI-84 Python provides basic graphics and plotting functionality, the MicroPython environment is intentionally limited compared to desktop scientific Python environments such as NumPy, pandas, Matplotlib, or Jupyter notebooks. Only a relatively small set of MicroPython libraries and TI-specific modules are available, including modules such as `math`, `random`, `ti_system`, `ti_draw`, and `ti_plotlib`. These modules are discussed from a practical scientific-computing perspective rather than as exhaustive API references.
 
-The TI-84 Plus CE Python environment operates under significant practical constraints, including limited storage capacity, modest processing speed, small-screen formatting limitations, manual data-entry requirements, and the absence of modern desktop-style CSV or spreadsheet pipelines. These limitations are discussed openly throughout the book and are treated as important design considerations rather than defects. Real-world scientific and engineering systems frequently operate under constrained conditions involving limited memory, restricted interfaces, embedded hardware, low-power processors, or simplified user interaction models. Learning to design readable, reliable, and reusable scientific software within such constraints develops valuable problem-solving skills that extend beyond calculator programming alone. The TI-84 platform therefore serves not only as an educational calculator, but also as an accessible introduction to constrained scientific computing and practical software engineering tradeoffs.
+The TI-84 Plus CE Python environment operates under significant practical constraints, including limited storage capacity, modest processing speed, small-screen formatting limitations, manual data-entry requirements, and the absence of modern desktop-style CSV or spreadsheet pipelines. These limitations are discussed openly throughout the book and are treated as important design considerations rather than defects. Real-world scientific and engineering systems frequently operate under constrained conditions involving limited memory, restricted interfaces, embedded hardware, low-power processors, or simplified user interaction models. Learning to design readable, reliable, and reusable scientific software within such constraints develops valuable problem-solving skills that extend beyond calculator programming alone.
+
+Rather than attempting to provide exhaustive implementations for every scientific topic, the book emphasizes representative applications and computational ideas that students may later expand into their own projects. Many chapters therefore include possible extensions and interdisciplinary exploration topics intended to encourage experimentation and independent scientific programming.
 
 The TI-84 Python environment is best viewed as a compact embedded scientific computing platform rather than a full desktop Python system.  Students learn:
 - efficient formatting
@@ -37,11 +42,13 @@ instead of immediately depending on:
 - large datasets
 - heavy abstraction layers
 
-## Physical Chemistry Perspective
+## Integrated Physics and Chemistry Perspective
 
-Many of the scientific examples in this book are inspired by topics commonly found in physical chemistry, including thermodynamics, gases, equilibrium, kinetics, spectroscopy, molecular motion, and introductory statistical reasoning. These topics are often presented in advanced textbooks with substantial calculus and mathematical formalism. In this book, they are adapted into compact computational examples suitable for the TI-84 Plus CE Python environment.
+Many scientific applications in this book intentionally combine concepts from introductory physics and chemistry in order to demonstrate how computational scientific ideas connect across disciplines. Rather than treating physics and chemistry as isolated subjects, the examples show how foundational physical principles often provide insight into chemical systems and laboratory behavior.
 
-The goal is not to replace a full physical chemistry course or textbook. Instead, the examples provide an accessible bridge between community-college-level chemistry and physics topics and the more quantitative perspective students may encounter later in upper-division university coursework. By using Python to model, calculate, format, and interpret scientific relationships, students gain early familiarity with physical chemistry ideas while also developing practical scientific programming habits.
+For example, vector calculations introduced in mechanics may later be applied to molecular dipole moments and polarity. Wave behavior and electromagnetic radiation concepts may later connect to spectroscopy and light absorption. Statistical methods used in laboratory data analysis may later help explain molecular motion, diffusion, and reaction behavior. Similar interdisciplinary connections are explored between gravity and sedimentation, energy and thermodynamics, exponential decay and chemical kinetics, and regression analysis and calibration curves.
+
+The goal is not to provide a complete treatment of advanced physical chemistry topics, but rather to help students recognize how physics, chemistry, mathematics, and scientific programming interact in practical computational settings. The examples are intentionally scaled to the capabilities of the TI-84 Python platform while still encouraging broader scientific thinking and computational exploration.
 
 ## Laboratory Data and Scientific Workflows
 
@@ -51,35 +58,7 @@ The TI-84 Python platform should not be viewed as a replacement for desktop scie
 
 Several chapters demonstrate how experimental data originating from spreadsheets or laboratory acquisition systems may be adapted into TI-84 Python programs using lists, compact tables, formatted numerical displays, and reusable analysis functions. Topics include significant figures, error analysis, regression utilities, spectroscopy calculations, kinetics data reduction, thermodynamic computations, and scientific table formatting. The overall goal is to help students and instructors build practical scientific tools that complement — rather than replace — larger desktop scientific computing systems.
 
-## Example Scientific Applications
-
-The examples and projects developed throughout this book emphasize practical scientific computing tasks commonly encountered in chemistry, physics, engineering, and laboratory courses. Rather than focusing exclusively on isolated mathematical exercises, the programs are designed to support realistic scientific workflows involving data analysis, numerical calculations, formatted output, and reusable computational utilities.
-
-### Linear Regression and Calibration Utilities
-
-Several applications demonstrate the use of linear regression techniques for scientific calibration and data analysis. Example projects include Beer-Lambert calibration curves, kinetics trend analysis, gas-law relationships, and experimental curve fitting. The TI-84 calculator already provides built-in statistical tools, but Python programs can automate repetitive workflows, improve formatting, and organize scientific output more effectively.
-
-### Error Analysis and Experimental Uncertainty
-
-The book includes utilities for handling common forms of experimental uncertainty and data analysis. Applications include average and standard deviation calculations, percent error and percent difference analysis, confidence intervals, significant-figure handling, and basic uncertainty propagation methods frequently encountered in laboratory courses.
-
-### Scientific Table Formatting and Data Presentation
-
-A major emphasis of the display library is the clear presentation of scientific information on small displays. Example utilities demonstrate aligned columns, formatted numerical output, scientific notation handling, unit labeling, paginated tables, and structured experimental summaries suitable for laboratory and educational use.
-
-### Spectroscopy and Analytical Chemistry Utilities
-
-Several examples focus on compact spectroscopy and analytical chemistry applications appropriate for the TI-84 Python environment. Projects include absorbance calculations, concentration determination, calibration interpolation, repeated-measurement averaging, and lightweight spectroscopy data analysis utilities.
-
-### Chemical Kinetics and Reaction Analysis
-
-The TI-84 platform is well suited for small computational kinetics utilities. Example projects include rate-law calculators, Arrhenius equation applications, half-life calculations, integrated rate-law analysis, slope estimation, and compact reaction-analysis tools commonly encountered in introductory physical chemistry and laboratory settings.
-
-### Thermodynamics and Scientific Reference Utilities
-
-Additional examples demonstrate the use of thermodynamic tables, equilibrium calculations, Gibbs free energy estimations, heat-capacity calculations, and reusable scientific reference utilities. These applications emphasize structured program organization, reusable computation modules, and clear scientific presentation within the constraints of handheld scientific computing hardware.
-
-# Tentative Chapter List
+## Tentative Chapter List
 
 ## Part I — TI-84 Python Foundations
 
