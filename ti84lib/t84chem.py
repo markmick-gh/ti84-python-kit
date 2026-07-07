@@ -1,4 +1,4 @@
-# ti_chem.py
+# t84chem.py
 # Basic chemistry helpers for TI-84 Python
 
 AVOGADRO = 6.022e23
