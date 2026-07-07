@@ -1,4 +1,4 @@
-# ti_display.py
+# t84disp.py
 # TI-84 Python Display Utilities
 # MicroPython-safe version
 
