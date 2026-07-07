@@ -1,4 +1,4 @@
-# display.py
+# t84disp.py
 
 TI-84 Plus CE Python display utility library.
 
@@ -12,16 +12,16 @@ desktop Python features that are unsupported on the calculator.
 
 ## Installation
 
-Send `display.py` to the calculator using TI Connect CE.
+Send `t84disp.py` to the calculator using TI Connect CE.
 
 On the calculator:
 
 1. Open the Python App
-2. Verify that `display.py` appears in the file list
+2. Verify that `t84disp.py` appears in the file list
 
 ---
 
 ## Importing
 
 ```python
-from display import *
+from t84disp import *
