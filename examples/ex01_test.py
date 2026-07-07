@@ -1,8 +1,8 @@
 # ex01_test.py
-# Basic test/demo program for TI-84 display.py
+# Basic test/demo program for TI-84 t84disp.py
 # MicroPython-safe version
 
-from display import *
+from t84disp import *
 
 
 def test_title():
