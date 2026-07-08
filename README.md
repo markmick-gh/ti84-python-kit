@@ -25,7 +25,7 @@ You should see:
 2. Connect the TI-84 Plus CE Python calculator by USB.
 3. From the Menu, choose "Actions" -> Add Files from Computer
 4. Drag these two files into the calculator:
-- display.py
+- t84disp.py
 - ex01_test.py
 
 Do not send the folders themselves. Send the actual `.py` files.
