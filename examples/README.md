@@ -27,4 +27,4 @@ Features demonstrated:
 The examples require:
 
 ```text
-display.py
+t84disp.py
